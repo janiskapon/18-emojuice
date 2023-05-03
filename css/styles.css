@@ -8,3 +8,96 @@ img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  background-image: url(../img/image-fond-legumes.webp);
+  background-size: cover;
+  display: block;
+  padding: 30px;
+  border-top: 5px #060E17;
+  text-align: center;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #7DB96F;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Maven Pro', sans-serif;
+
+}
+
+.contact {
+color: #7DB96F;
+background: #FFFFFF;
+}
+
+.picto {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 40px;
+  padding: 30px;
+  flex-wrap: nowrap;
+}
+
+div.section-light {
+background: #FFFFFF;
+font-family: 'Maven Pro', sans-serif;
+padding: 30px;
+text-align: center;
+}
+
+div.section-green {
+  background: #7DB96F;
+  padding: 30px;
+
+}
+
+.en-savoir-plus {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.titre {
+font-family: 'Sriracha', cursive;
+font-size: 30px;
+font-weight: 400;
+}
+
+.sous-texte {
+font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.en-savoir-plus {
+font-family: 'Maven Pro', sans-serif;
+}
+
+.picto-inside {
+width: 20%;
+}
+
+footer {
+font-family: 'Maven Pro', sans-serif;
+}
+
+footer h2 {
+color: #FFFFFF;
+background: #7DB96F;
+border-radius: 10px;
+font-weight: light;
+font-style: normal;
+}
+
+footer, h3 {
+  color: #7DB96F;  
+}
+
+h4 {
+  color: #7DB96F;
+}
